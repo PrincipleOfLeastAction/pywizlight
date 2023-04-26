@@ -37,11 +37,12 @@ SCENES = {
     30: "Golden white",
     31: "Pulse",
     32: "Steampunk",
+    33: "Diwali",
     1000: "Rhythm",
 }
 SCENE_NAME_TO_ID = {scene_name: scene_id for (scene_id, scene_name) in SCENES.items()}
-TW_SCENES = [6, 9, 10, 11, 12, 13, 14, 15, 16, 18, 29, 30, 31, 32]
-DW_SCENES = [9, 10, 13, 14, 29, 30, 31, 32]
+TW_SCENES = [6, 9, 10, 11, 12, 13, 14, 15, 16, 18, 29, 30, 31, 32, 33]
+DW_SCENES = [9, 10, 13, 14, 29, 30, 31, 32, 33]
 
 SCENES_BY_CLASS: Dict[BulbClass, List[str]] = {
     BulbClass.RGB: list(cast(Iterable, SCENES.values())),
