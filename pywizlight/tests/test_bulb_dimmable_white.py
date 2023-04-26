@@ -48,4 +48,5 @@ async def test_supported_scenes(dimmable_bulb: wizlight) -> None:
         "Golden white",
         "Pulse",
         "Steampunk",
+        "Diwali",
     ]
